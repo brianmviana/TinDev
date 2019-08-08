@@ -6,11 +6,12 @@ Aplicativo desenvolvido na semana OmniStack
 ``` bash
 git clone
 
+# Entre na pasta do sevidor
 cd backend
 
 # instala as dependencias
 npm install
 
-# Inicializa a aplicação vue na url: localhost:8080
+# Inicializa o servidor na url: localhost:3333
 npm start
 ```
