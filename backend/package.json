@@ -1,12 +1,22 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicativo desenvolvido na semana OmniStack",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianmviana/TinDev.git"
+  },
   "author": "Brian M. Viana",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.8"
   }
 }
